@@ -11,9 +11,10 @@ export default defineConfig({
         codeSplitting: {
           groups: [
             {
-              name: 'vendor',
-              test: /node_modules[\\/]/,
-              maxSize: 420 * 1024,
+              name: 'three-core',
+              test: /node_modules[\\/]three[\\/]/,
+              priority: 10,
+              includeDependenciesRecursively: false,
             },
           ],
         },

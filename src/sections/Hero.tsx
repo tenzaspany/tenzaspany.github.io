@@ -2,6 +2,7 @@ import { Suspense, lazy, useEffect, useState } from 'react'
 import { AnimatePresence, motion } from 'motion/react'
 import { ArrowDown, ArrowRight, ArrowUpRight } from 'lucide-react'
 import { MagneticLink } from '../components/MagneticLink'
+import { ErrorBoundary } from '../components/ErrorBoundary'
 import { useLanguage } from '../i18n/useLanguage'
 import { useReducedMotion } from '../hooks/useReducedMotion'
 
@@ -140,11 +141,16 @@ export function Hero() {
         >
           <div className="hero-orb-aura" />
           {showScene ? (
-            <Suspense fallback={<div className="hero-orb-static" />}>
-              <div className="hero-canvas">
-                <HeroScene />
-              </div>
-            </Suspense>
+            <ErrorBoundary
+              name="Hero 3D scene"
+              fallback={<div className="hero-orb-static" />}
+            >
+              <Suspense fallback={<div className="hero-orb-static" />}>
+                <div className="hero-canvas">
+                  <HeroScene />
+                </div>
+              </Suspense>
+            </ErrorBoundary>
           ) : (
             <div className="hero-orb-static" />
           )}
