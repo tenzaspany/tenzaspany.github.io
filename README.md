@@ -1,16 +1,31 @@
-# React + Vite
+<h1 align="center">Hi, I'm Nadian 👋</h1>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<p align="center">
+  <b>Full Stack Developer</b> from Poland 🇵🇱<br>
+  I build modern websites, Minecraft plugins and Discord bots.
+</p>
 
-Currently, two official plugins are available:
+<p align="center">
+  <a href="https://tenzaspany.github.io">🌐 Portfolio</a> ·
+  <a href="https://github.com/tenzaspany">GitHub</a> ·
+  Discord: <b>tenzaspany</b>
+</p>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## 🚀 About me
+- 💻 Programming since I was 13
+- 🌐 Mainly websites, custom Minecraft plugins and Discord bots
+- 📚 Always learning new technologies
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Tech stack
+<p>
+  <img src="https://skillicons.dev/icons?i=react,nodejs,ts,js,java,py,mysql,tailwind,git" alt="Tech stack" />
+</p>
 
-## Expanding the ESLint configuration
+## 📌 Featured project
+- **[nicolebosiacka.pl](https://nicolebosiacka.pl)**: portfolio website for a makeup artist and stylist, with an admin panel for managing the gallery.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📫 Contact
+- Discord: **tenzaspany**
+- Portfolio: [tenzaspany.github.io](https://tenzaspany.github.io)
